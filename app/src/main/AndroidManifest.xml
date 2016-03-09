@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.enrique.classroom_reservations" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconcalendar"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".EditReservationActivity"
+            android:label="@string/title_activity_edit_reservation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AddIncidenceActivity"
+            android:label="@string/title_activity_add_incidence"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SendMailActivity"
+            android:label="@string/title_activity_send_mail"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

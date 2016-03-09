@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#ffffff</item>
+        <item name="colorControlHighlight">#ffffff</item>
+    </style>
+
+    <!-- Dark theme. -->
+    <style name="MyCaldroidTheme" parent="CaldroidDefault">
+        <item name="styleCaldroidViewLayout">@style/CaldroidDefaultDarkCalendarViewLayout</item>
+    </style>
+
+    <style name="CaldroidDefaultDarkCalendarViewLayout">
+        <item name="android:background">#ef6c00</item>
+    </style>
+
+</resources>

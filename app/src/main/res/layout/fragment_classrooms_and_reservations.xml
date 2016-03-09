@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.enrique.classroom_reservations.ClassroomsAndReservationsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Elige un aula"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/spinnerClassrooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:scrollIndicators="right"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar"></Spinner>
+        <RelativeLayout
+            android:id="@+id/caldroidContent"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"></RelativeLayout>
+        <TextView
+            android:text="Elige una hora"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtInfoInterval"
+            android:visibility="invisible"
+            android:layout_marginTop="20dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Spinner
+                android:id="@+id/spinnerFreeIntervals"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:scrollIndicators="right"
+                android:visibility="invisible"
+                android:background="#f5f5f5"></Spinner>
+            <Button
+                android:id="@+id/btnSaveReservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="Reservar"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_corner_button"
+                android:textSize="16dp"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

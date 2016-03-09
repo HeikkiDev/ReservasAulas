@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Classrooms Reservations</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="drawer_open">open!!</string>
+    <string name="drawer_close">close!!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">Mi perfil</string>
+    <string name="title_activity_edit_reservation">Mis reservas</string>
+    <string name="title_activity_add_incidence">Incidencias</string>
+    <string name="title_activity_send_mail">Incidencias</string>
+</resources>
